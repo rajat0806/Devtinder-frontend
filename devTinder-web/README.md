@@ -87,7 +87,7 @@ Body
 
         nginx config : 
 
-        server_name 43.204.96.49;
+        server_name 13.49.230.96;
 
         location /api/ {
             proxy_pass http://localhost:7777/;  # Pass the request to the Node.js app
